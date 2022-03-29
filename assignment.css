@@ -1,0 +1,423 @@
+* {box-sizing: border-box}
+
+header{
+    padding: 1em;
+    color: white;
+    background-color: #44206E;
+    clear: left;
+    text-align: center;
+    font-weight: bold;
+    overflow: auto;
+    position: relative;
+}
+
+form .error {
+  color: #ff0000;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.carousel {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 60%;
+  max-height: 400px;
+  height: auto;
+  width: auto\9;
+  margin: auto;
+}
+
+#header {
+    /* position:relative; */
+    text-align:center;
+    width: 100%;
+
+}
+
+#registerLink {
+    padding-right: 40px;
+}
+
+div.register {
+    position:absolute; 
+    top:0px; 
+    right:0px;
+}
+
+header h1{
+    text-align: center;
+}
+
+.serviceName {
+  color: black;
+  display: inline;
+}
+
+#left{float:left;width:100px;}
+#right{float:right;width:100px;}
+#center{margin:0 auto;width:100px;}
+
+.link {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+footer{
+    padding: 4em;
+    color: white;
+    background-color: #2B2B32;
+    clear: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* nav{
+    color: white;
+    background-color: #6450B8;
+    clear: left;
+    text-align: center;
+    font-weight: bold;#583186
+} */
+
+nav{
+    overflow: hidden;
+    background-color: #583186;
+    clear: both;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.containerCenter{
+  margin: auto;
+  width: 90%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-bottom:60px;   /* Height of the footer */
+}
+
+article{
+    padding-right: 5em;
+    padding-left: 5em;
+    background-color:white;
+    overflow: auto;
+}
+
+article.gray{
+    background-color:#A99FB6;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    width: auto\9;
+}
+
+img.default {
+  all: initial;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 100%;
+  max-height: 400px;
+  cursor: pointer;
+}
+
+img.serviceicon {
+  all: initial;
+}
+
+video {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    min-width: 350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+img.right {
+    float: right;    
+    margin: 0 0 0 2em;
+}
+
+img.left {
+    float: left;    
+    margin: 0 2em 0 0;
+}
+
+img.service {
+  max-width: 30%;
+  display:inline;
+}
+
+h1.serviceRight {
+    font-size: xx-large;
+    clear:both;
+}
+
+h1.serviceLeft {
+    font-size: xx-large;
+    clear:both;
+}
+
+h1.service {
+  font-size: xx-large;
+  clear:both;
+}
+
+p.service {
+    font-size: x-large;
+}
+
+ol.service, ul.service {
+  font-size: large;
+}
+
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 350px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.index {
+  text-align: center;
+}
+
+/* h1.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+h2.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+} */
+
+
+
+
+fixed-content{
+    width: 100px;
+    border: grey solid 5px;
+    padding:20px;
+    margin: 20px
+}
+
+/* links */
+
+a:link {
+  color: white;
+}
+  
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+a.servicelink:link {
+  color: black;
+}
+  
+/* visited link */
+a.servicelink:visited {
+  color: black;
+}
+
+/* mouse over link */
+a.servicelink:hover {
+  color: #583186;
+}
+
+/* selected link */
+a.servicelink:active {
+  color: #583186;
+}
+
+a.sitemaplink:link {
+  color: #583186;
+}
+  
+/* visited link */
+a.sitemaplink:visited {
+  color: black;
+}
+
+/* mouse over link */
+a.sitemaplink:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.sitemaplink:active {
+  color: black;
+}
+
+.formContainer {
+  padding: 16px;
+}
+
+div.container{
+  width: 100%;
+  border: none;
+  margin:0;
+}
+
+.regError {
+  color: red;
+}
+
+input.register {
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  width: 100%;
+  display: inline-block;
+  border: none;
+  background: #ccc;
+}
+
+input.register:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the register button */
+.registerbutton {
+  background-color: #583186;
+  color: white;
+  padding: 20px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.85;
+}
+
+/* Set a style for the generate button */
+.generatebutton {
+  background-color: #583186;
+  color: white;
+  padding: 20px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.85;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.ageSlider {
+width: 100%; 
+height: 20px;
+background: #d3d3d3; 
+color: purple;
+}
+
+.ageSlider:hover {
+opacity: 1; 
+}
+
+/* meal plan stylings*/
+
+#plan {
+  padding: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.mealImg {
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+/* Contact us form */
+
+.contactus {
+  width: 100%; 
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+.contactusButton {
+  background-color: #583186;
+  color: white;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.contactusButton:hover {
+  opacity: 1;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
